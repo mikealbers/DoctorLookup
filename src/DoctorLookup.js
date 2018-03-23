@@ -6,7 +6,7 @@ export class DoctorLookup {
     this.search = search
   }
 
-  betterDoctorSearch(doctorDisplay){
+  keywordDoctorSearch(doctorDisplay){
     let searchQuery = this.search
     console.log(searchQuery)
     let key = process.env.exports.apiKey
@@ -27,7 +27,7 @@ export class DoctorLookup {
         doctorDisplay(doctorInfo)
       },
       error: function(){
-
+        window.location.replace('404.html')
       }
     })
 

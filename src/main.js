@@ -61,11 +61,11 @@ $(document).ready(function() {
         }
       }
     }
-    newDoctorLookup.betterDoctorSearch(doctorDisplay)
+    newDoctorLookup.keywordDoctorSearch(doctorDisplay)
   })
 
   // $('#doctorSearchNameButton').click(function(){
-  //   let search = $('#doctorKeywordSearch').val()
+  //   let search = $('#doctorName').val()
   //   let newDoctorLookup = new DoctorLookup(search)
   //   $('#doctorResults').html('')
   //   $('#doctorResults').html('<h1>Please wait while the search loads</h1>')
@@ -80,7 +80,7 @@ $(document).ready(function() {
   //       }
   //     }
   //   }
-  //   newDoctorLookup.betterDoctorSearch(doctorDisplay)
+  //   newDoctorLookup.nameDoctorSearch(doctorDisplay)
   // })
 
 
