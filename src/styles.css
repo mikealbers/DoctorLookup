@@ -2,12 +2,18 @@
 
 }
 
-.cardTop{
+.cardName{
+  background-color: #efefef;
+}
 
+.cardTop{
+  padding: 5px;
+  background-color: #dfdfdf;
 }
 
 .cardBio{
-  
+  padding: 5px;
+  background-color: #cfcfcf;
 }
 
 .searchForm {

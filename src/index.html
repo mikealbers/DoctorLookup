@@ -5,14 +5,29 @@
   </head>
   <body>
     <div class='container'>
-      <h1>DoctorLookup</h1>
-      <div class="searchForm">
-        <input type="text" id="doctorSearchInput" value="foot">
-        <button type="button" name="button" id="doctorSearchFormButton">Search</button>
+      <div class="row topBar jumbotron">
+        <h1>Find Local Doctors</h1>
       </div>
-        <div>
-          <div id="doctorResults"></div>
+      <div class="row">
+        <div class="col-md-2">
+          <div class="searchKeyword">
+            <h2>Search by keyword</h2>
+            <input type="text" id="doctorKeyword" value="foot">
+            <button type="button" name="button" id="doctorSearchKeywordButton">Search</button>
+          </div>
+          <div class="searchName">
+            <h2>Search by Name</h2>
+            <input type="text" id="doctorName" value="foot">
+            <button type="button" name="button" id="doctorSearchNameButton">Search</button>
+          </div>
         </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-9">
+          <div>
+            <div id="doctorResults"></div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
