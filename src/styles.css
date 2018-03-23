@@ -19,3 +19,9 @@
 .searchForm {
   margin-bottom: 20px;
 }
+
+.topBar {
+  color: white;
+  background-size: cover;
+  background-image: url('https://media.giphy.com/media/buVz4N0U5xIas/giphy.gif');
+}
