@@ -64,24 +64,24 @@ $(document).ready(function() {
     newDoctorLookup.keywordDoctorSearch(doctorDisplay)
   })
 
-  // $('#doctorSearchNameButton').click(function(){
-  //   let search = $('#doctorName').val()
-  //   let newDoctorLookup = new DoctorLookup(search)
-  //   $('#doctorResults').html('')
-  //   $('#doctorResults').html('<h1>Please wait while the search loads</h1>')
-  //   $('#doctorSearchInput').val('')
-  //   let doctorDisplay = function displayKeywordResults(array){
-  //     $('#doctorResults').html('')
-  //     if (array[0] === undefined){
-  //       $('#doctorResults').html('<h1>No results found</h1>')
-  //     } else {
-  //       for(let i = 0; i < 10; i++){
-  //         searchFunctions.CardBuilder(array, i);
-  //       }
-  //     }
-  //   }
-  //   newDoctorLookup.nameDoctorSearch(doctorDisplay)
-  // })
+  $('#doctorSearchNameButton').click(function(){
+    let search = $('#doctorName').val()
+    let newDoctorLookup = new DoctorLookup(search)
+    $('#doctorResults').html('')
+    $('#doctorResults').html('<h1>Please wait while the search loads</h1>')
+    $('#doctorSearchInput').val('')
+    let doctorDisplay = function displayKeywordResults(array){
+      $('#doctorResults').html('')
+      if (array[0] === undefined){
+        $('#doctorResults').html('<h1>No results found</h1>')
+      } else {
+        for(let i = 0; i < 10; i++){
+          searchFunctions.CardBuilder(array, i);
+        }
+      }
+    }
+    newDoctorLookup.nameDoctorSearch(doctorDisplay)
+  })
 
 
 
