@@ -14,9 +14,8 @@ This is the Epicodus weekly project for week 2 of the JavaScript course. It uses
 
 | Spec | Input | Output |
 | :---------------| :---------------| :---------------|
-| | | |
-| | | |
-| | | |
+| Search for a doctor by medical issue | "foot" | List of doctors that handle foot injuries |
+| Seach for a doctor by name  | "kim" | Returns a list of doctors with "kim" in their name "Kim Johnson, Johhny Kim, Kimberly Kimkim" |
 
 
 
@@ -95,13 +94,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-Sign up at https://developer.betterdoctor.com/ to get an api key
-
-Create a file called .env in the top level of the directory
-
-in .env type "exports.apiKey =" then type in your api key in after the equal sign
-
-npm install
-npm npm install dotenv-webpack --save-dev
-npm run start
